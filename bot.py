@@ -1,5 +1,6 @@
 import os
 import datetime
+from typing import get_type_hints
 from twitchio.ext import commands
 from dotenv import load_dotenv
 
@@ -12,6 +13,8 @@ bot = commands.Bot(
     nick=os.getenv('BOT_NICK'),
     prefix=os.getenv('BOT_PREFIX'),
     initial_channels=[os.getenv('CHANNEL')]
+    CommitTest=[os.get_type_hints('Means')]
+
 )
 
 # Initialize play as True to indicate that the bot
