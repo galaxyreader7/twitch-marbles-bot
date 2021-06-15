@@ -17,6 +17,7 @@ bot = commands.Bot(
 
 )
 
+ Pretending like im working bro.
 # Initialize play as True to indicate that the bot
 # is able to send !play when a marbles is starting
 play = True
